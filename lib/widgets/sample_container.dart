@@ -5,17 +5,31 @@ class SampleContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.red,
-        border: Border.all(width: 3, color: Colors.blue),
-        borderRadius: BorderRadius.circular(10)
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Belajar Container'),
       ),
-      child: Text("Mari kita belajar flutter container bersama"),
-      margin: EdgeInsets.all(10),
-      padding: EdgeInsets.all(5),
-      width: 500,
-      height: 300,
+
+      body: Center(
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.red,
+            border: Border.all(width: 3, color: Colors.blue),
+            borderRadius: BorderRadius.circular(100)
+          ),
+          margin: EdgeInsets.all(20),
+          padding: EdgeInsets.symmetric(
+            horizontal: 30
+          ),
+          width: 200,
+          height: 200,
+          child: const Center(
+            child: Text(
+              'Selamat datang di program mobile baru raka.'
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:first_app/widgets/sample_container.dart';
+import 'package:first_app/widgets/sample_text.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
           foregroundColor: Colors.white
         ),
       ),
-      home: const MyHomePage(),
+      home: const SampleText(),
     );
   }
 }
