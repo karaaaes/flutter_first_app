@@ -58,9 +58,8 @@ class SampleImage extends StatelessWidget {
                         fit: BoxFit.cover,
                         // repeat: ImageRepeat.repeat,
                       ),
-                    )
-                  ),
-                  Container(
+                    )),
+                Container(
                     height: 400,
                     width: 400,
                     margin: const EdgeInsets.all(10),
@@ -74,10 +73,11 @@ class SampleImage extends StatelessWidget {
                         // repeat: ImageRepeat.repeat,
                       ),
                     )),
-                    const CircleAvatar(
-                      radius: 100,
-                      backgroundImage: AssetImage('assets/images/katsuki-bakugo-izuku-midoriya-shoto-todoroki-my-hero-3840x2160-9148.png'),
-                    ),
+                const CircleAvatar(
+                  radius: 100,
+                  backgroundImage: AssetImage(
+                      'assets/images/katsuki-bakugo-izuku-midoriya-shoto-todoroki-my-hero-3840x2160-9148.png'),
+                ),
               ],
             ),
           ),
