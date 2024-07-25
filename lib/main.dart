@@ -2,6 +2,7 @@ import 'package:first_app/widgets/sample_container.dart';
 import 'package:first_app/widgets/sample_image.dart';
 import 'package:first_app/widgets/sample_listview.dart';
 import 'package:first_app/widgets/sample_listview_builder.dart';
+import 'package:first_app/widgets/sample_listview_horizontal.dart';
 import 'package:first_app/widgets/sample_listviewcircle.dart';
 import 'package:first_app/widgets/sample_text.dart';
 import 'package:flutter/material.dart';
@@ -19,11 +20,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          backgroundColor: Color.fromARGB(255, 133, 37, 150), 
+          backgroundColor: Color.fromARGB(255, 10, 13, 157), 
           foregroundColor: Colors.white
         ),
       ),
-      home: SampleListViewCircle(),
+      home: SampleListViewHorizontal(),
     );
   }
 }
