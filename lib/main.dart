@@ -1,3 +1,4 @@
+import 'package:first_app/widgets/sample_bottom_navbar.dart';
 import 'package:first_app/widgets/sample_container.dart';
 import 'package:first_app/widgets/sample_image.dart';
 import 'package:first_app/widgets/sample_listview.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
           foregroundColor: Colors.white
         ),
       ),
-      home: SampleListViewHorizontal(),
+      home: SampleBottomNavbar(),
     );
   }
 }
