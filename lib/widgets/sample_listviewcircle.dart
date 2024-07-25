@@ -7,9 +7,6 @@ class SampleListViewCircle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Belajar Widget List View Circle'),
-      ),
       body: Container(
         height: 100,
         child: ListView.builder(

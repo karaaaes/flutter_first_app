@@ -1,3 +1,6 @@
+import 'package:first_app/widgets/sample_listview_horizontal.dart';
+import 'package:first_app/widgets/sample_listviewcircle.dart';
+import 'package:first_app/widgets/sample_padding.dart';
 import 'package:flutter/material.dart';
 
 class SampleBottomNavbar extends StatefulWidget {
@@ -17,9 +20,9 @@ class _SampleBottomNavbarState extends State<SampleBottomNavbar> {
   }
 
   List<Widget> data = [
-    const Text('Beranda'),
-    const Text('Search'),
-    const Text('Favorite'),
+    SampleListViewCircle(),
+    SampleListViewHorizontal(),
+    SamplePadding(),
     const Text('Settings')
   ];
 

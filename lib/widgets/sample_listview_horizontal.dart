@@ -38,9 +38,6 @@ class SampleListViewHorizontal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Top 5 Blue Lock'),
-      ),
       body: ListView.separated(
           itemBuilder: (context, index) {
             return ListTile(
