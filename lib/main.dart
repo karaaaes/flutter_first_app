@@ -2,6 +2,7 @@ import 'package:first_app/widgets/sample_container.dart';
 import 'package:first_app/widgets/sample_image.dart';
 import 'package:first_app/widgets/sample_listview.dart';
 import 'package:first_app/widgets/sample_listview_builder.dart';
+import 'package:first_app/widgets/sample_listviewcircle.dart';
 import 'package:first_app/widgets/sample_text.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
           foregroundColor: Colors.white
         ),
       ),
-      home: SampleListViewBuilder(),
+      home: SampleListViewCircle(),
     );
   }
 }
