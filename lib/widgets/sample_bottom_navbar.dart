@@ -1,3 +1,4 @@
+import 'package:first_app/widgets/sample_columnrow.dart';
 import 'package:first_app/widgets/sample_listview_horizontal.dart';
 import 'package:first_app/widgets/sample_listviewcircle.dart';
 import 'package:first_app/widgets/sample_padding.dart';
@@ -23,7 +24,7 @@ class _SampleBottomNavbarState extends State<SampleBottomNavbar> {
     SampleListViewCircle(),
     SampleListViewHorizontal(),
     SamplePadding(),
-    const Text('Settings')
+    SampleColumnRow()
   ];
 
 
